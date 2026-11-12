@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Olga Pilate · eesti keel teise keelena</title>
+<meta name="description" content="Olga Pilate õpetamismoodul ja osalemine Eesti Keele Instituudi järelkasvuprogrammis eesti keele teise keelena õpetajatele.">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700&family=Atkinson+Hyperlegible:wght@400;700&display=swap">
+<style>
+/* Layout: one column; the module is the centrepiece, everything else is short context around it. */
+:root{
+  --bg:#EDF3F6; --surface:#FFFFFF; --sunk:#DFE9EE; --ink:#16283A; --muted:#4F6272; --line:#C3D1DA;
+  --accent:#C2255C; --accent-ink:#FFFFFF; --teal:#12706B; --sun:#F2B705;
+  --display:"Baloo 2","Trebuchet MS",Verdana,sans-serif; --body:"Atkinson Hyperlegible",Verdana,Arial,sans-serif;
+}
+@media (prefers-color-scheme: dark){ :root{
+  --bg:#101B24; --surface:#18262F; --sunk:#213440; --ink:#E9F1F5; --muted:#A5B8C4; --line:#34495A;
+  --accent:#FF7FA8; --accent-ink:#1A0A12; --teal:#5FD0C7; color-scheme:dark } }
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--body);font-size:18px;line-height:1.6}
+.wrap{max-width:860px;margin:0 auto;padding-inline:20px;padding-block:28px 64px;display:flex;flex-direction:column;gap:40px}
+h1,h2,h3{font-family:var(--display);line-height:1.1;margin:0;text-wrap:balance}
+h1{font-size:clamp(2.4rem,8vw,4rem)}
+h2{font-size:1.8rem}
+p{margin:0;max-width:62ch}
+a{color:var(--accent)}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.eyebrow{font-size:.8rem;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);font-weight:700}
+header,section{display:flex;flex-direction:column;gap:14px}
+.lead{font-size:1.2rem;color:var(--muted)}
+.module{background:var(--surface);border:2px solid var(--ink);border-radius:18px;padding:24px;display:flex;flex-direction:column;gap:16px}
+.module h2{font-size:clamp(2rem,7vw,3rem);color:var(--accent)}
+.module svg{width:100%;height:auto;display:block}
+.btn{align-self:flex-start;background:var(--accent);color:var(--accent-ink);font-weight:700;text-decoration:none;border-radius:10px;padding:12px 24px}
+ol.lessons{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(auto-fit,minmax(230px,1fr));gap:10px;counter-reset:l}
+ol.lessons li{counter-increment:l;min-width:0}
+ol.lessons a{display:flex;flex-direction:column;gap:2px;height:100%;background:var(--sunk);border-radius:10px;padding:12px 14px;text-decoration:none;color:var(--ink)}
+ol.lessons a::before{content:"Tund " counter(l);font-size:.75rem;letter-spacing:.08em;text-transform:uppercase;color:var(--teal);font-weight:700}
+ol.lessons b{font-family:var(--display);font-size:1.15rem}
+ol.lessons span{font-size:.92rem;color:var(--muted)}
+dl{margin:0;display:grid;grid-template-columns:max-content 1fr;gap:6px 18px}
+dt{font-weight:700;color:var(--muted)} dd{margin:0;min-width:0}
+ul{margin:0;padding-left:1.2em;display:flex;flex-direction:column;gap:6px;max-width:62ch}
+footer{border-top:2px solid var(--line);padding-top:16px;font-size:.9rem;color:var(--muted)}
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <div class="eyebrow">eesti keel teise keelena · õpetamismoodul</div>
+  <h1>Olga Pilate</h1>
+  <p class="lead">Keeleõpetaja Tallinnas. Sellel lehel on õpetamismoodul, mille koostasin Eesti Keele Instituudi järelkasvuprogrammis.</p>
+</header>
+
+<section class="module" aria-labelledby="m">
+  <div class="eyebrow">Õpetamismoodul · A1 · 8–9-aastased · 6 × 45 min</div>
+  <h2 id="m">Sobib hästi!</h2>
+  <svg id="line" viewBox="0 0 640 118" role="img" aria-label="Pesunöör riietega"></svg>
+  <p>Kuue tunni jooksul õpivad lapsed nimetama üheksat riideeset, ütlema, mis neil seljas, jalas ja peas on, ning otsustama, kas riided sobivad ilma ja olukorraga. Lõpus loob iga paar paberinuku ja esitleb seda klassile.</p>
+  <div style="display:flex;gap:12px;flex-wrap:wrap;align-items:center"><a class="btn" href="sobib-hasti.html">Ava moodul</a><a href="sobib-hasti-moodul.pdf" download style="font-weight:700">Laadi alla kogu moodul (PDF, 17 lk)</a></div>
+  <ol class="lessons">
+    <li><a href="sobib-hasti.html#tund1"><b>Mis see on?</b><span>Üheksa riideeset: sõnakaardid ja liikumismäng</span></a></li>
+    <li><a href="sobib-hasti.html#tund2"><b>Mul on seljas…</b><span>Seljas, jalas, peas ja paarismäng ruudustikul</span></a></li>
+    <li><a href="sobib-hasti.html#tund3"><b>Värvid ja riimid</b><span>Värv ja riie ainsuses ja mitmuses, lühikesed riimid</span></a></li>
+    <li><a href="sobib-hasti.html#tund4"><b>Kas sobib?</b><span>Riided, ilm ja olukord</span></a></li>
+    <li><a href="sobib-hasti.html#tund5"><b>Meie nukk</b><span>Paaristöö: tegelane ja tema riided</span></a></li>
+    <li><a href="sobib-hasti.html#tund6"><b>Esitlus</b><span>Esitlused, riimid ja sõnavarakontroll</span></a></li>
+  </ol>
+</section>
+
+<section aria-labelledby="k">
+  <h2 id="k">Kuidas moodul on üles ehitatud</h2>
+  <ul>
+    <li>Lapsed kasutavad terveid väljendeid (<i>mul on seljas jope</i>), grammatikat ei seletata.</li>
+    <li>Igas tunnis on liikumine ja mäng.</li>
+    <li>Draamaelement: laps annab nukule nime, vanuse ja olukorra ning räägib tema eest.</li>
+    <li>Igal tunnil on õpilase harjutus ekraanil ja õpetaja tunnikava minutite kaupa.</li>
+    <li>Hinnatakse ainult üheksat põhisõna; kõik muu saab kujundavat tagasisidet.</li>
+  </ul>
+  <p>Moodul on kasvanud välja saksa keele (L2) tundidest Tallinna Euroopa Kooli 3. klassis 2026. aasta sügisel ja kohandatud eesti keele kui teise keele õppesse.</p>
+</section>
+
+<section aria-labelledby="d">
+  <h2 id="d">Materjalid õpetajale</h2>
+  <p>Paberinukud 5. tunni jaoks: kuus A4-lehte nukkude ja riietega, üks värviline ja viis värvimiseks. Prindi, lõika välja ja riieta.</p>
+  <a class="btn" href="paberinukud.pdf" download>Laadi alla paberinukud (PDF, 3,2 MB)</a>
+  <p>Paarismäng „Laevade pommitamine“ 2. tunni jaoks: mänguleht õpilasele ja juhend õpetajale.</p>
+  <a class="btn" href="laevade-pommitamine.pdf" download>Laadi alla mänguleht ja juhend (PDF, 2 lk)</a>
+</section>
+
+<section aria-labelledby="v">
+  <h2 id="v">Viide: EKI pildisõnastik</h2>
+  <p>Mooduli sõnad toetuvad Eesti Keele Instituudi pildisõnastikule, kus saab pilte vaadata ja sõnade hääldust kuulata.</p>
+  <ul><li><a href="https://sonaveeb.ee/wordgame" target="_blank" rel="noopener">Pildisõnastik Sõnaveebis</a></li><li>Põhisõnavara sõnastiku pildiraamat: <a href="https://arhiiv.eki.ee/dict/psv/pildiraamat.cgi?T=7" target="_blank" rel="noopener">Riided</a>, <a href="https://arhiiv.eki.ee/dict/psv/pildiraamat.cgi?T=6" target="_blank" rel="noopener">Jalanõud</a>, <a href="https://arhiiv.eki.ee/dict/psv/pildiraamat.cgi?T=9" target="_blank" rel="noopener">Värvid</a>, <a href="https://arhiiv.eki.ee/dict/psv/pildiraamat.cgi?K=2" target="_blank" rel="noopener">Kehaosad</a></li></ul>
+</section>
+
+<section aria-labelledby="p">
+  <h2 id="p">Programm</h2>
+  <dl>
+    <dt>Nimi</dt><dd>Eesti keele teise keelena õpetajate järelkasvuprogramm</dd>
+    <dt>Korraldaja</dt><dd>Eesti Keele Instituut</dd>
+    <dt>Aeg</dt><dd>13.05.–11.12.2026</dd>
+  </dl>
+</section>
+
+
+<footer>© 2026 Olga Pilate</footer>
+</div>
+
+<script>
+const S='stroke="var(--ink)" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"';
+const G=[['#2FA36B',f=>`<path d="M32 18Q50 30 68 18L90 32L80 48L70 42V86H30V42L20 48L10 32Z" fill="${f}" ${S}/>`],
+['#2F6FD0',f=>`<path d="M30 10H70L77 92H56L50 40L44 92H23Z" fill="${f}" ${S}/><path d="M30 20H70" fill="none" ${S}/>`],
+['#D6336C',f=>`<path d="M38 10H44Q50 20 56 10H62L66 34L60 40L82 90H18L40 40L34 34Z" fill="${f}" ${S}/>`],
+['#E8590C',f=>`<circle cx="50" cy="18" r="9" fill="${f}" ${S}/><path d="M20 66Q20 26 50 26Q80 26 80 66Z" fill="${f}" ${S}/><rect x="16" y="62" width="68" height="14" rx="7" fill="${f}" ${S}/>`],
+['#E0A100',f=>`<path d="M30 20L42 13L50 22L58 13L70 20L92 48L79 57L70 46V90H30V46L21 57L8 48Z" fill="${f}" ${S}/><path d="M50 22V90M36 66h9M55 66h9" fill="none" ${S}/>`],
+['#7B4BC4',f=>`<path d="M36 22H64L84 84H16Z" fill="${f}" ${S}/><rect x="36" y="14" width="28" height="8" fill="${f}" ${S}/>`],
+['#12908A',f=>`<path d="M18 22H82V38H46V88H28V38H18Z" fill="${f}" ${S}/><path d="M31 88v6M37 88v6M43 88v6" fill="none" ${S}/>`]];
+let h='<path d="M0 22Q320 62 640 22" fill="none" stroke="var(--ink)" stroke-width="3"/>';
+G.forEach(([c,fn],i)=>{const x=22+i*88,t=(x+38)/640,y=22+80*t*(1-t)-4;h+=`<g transform="translate(${x},${y}) scale(.8)">${fn(c)}</g><rect x="${x+36}" y="${y-4}" width="7" height="18" rx="2" fill="var(--sun)" stroke="var(--ink)" stroke-width="2"/>`});
+document.getElementById('line').innerHTML=h;
+</script>
+</body>
+</html>
